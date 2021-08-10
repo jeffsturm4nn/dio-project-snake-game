@@ -11,10 +11,18 @@
     <title>Snake Game</title>
 </head>
 <body>
-    
+    <h1>Sɳαƙҽ Gαɱҽ</h1>
     <canvas id="snake" width="512" height="512">
         
     </canvas>
 
+    <div id="score-container">
+        <div id="score-table">
+            <h2 id="current-score">Score: 0</h2>
+            <h2 id="record-score">🏆Record: 0</h2>
+        </div>
+
+        <button id="restart-bt" onclick="reiniciarJogo(); mostrarElemento(this,false)" style="display: none;">Restart</button>
+    </div>
 </body>
 </html>
